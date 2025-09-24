@@ -18,8 +18,8 @@ app.use((req, res, next) => {
 // Conexión a la base de datos MySQL
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',  // Cambia esto con tus credenciales
-  password: '',  // Cambia esto con tus credenciales
+  user: 'root',  
+  password: '', 
   database: 'productos_db'
 });
 
